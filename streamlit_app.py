@@ -7,7 +7,7 @@ import streamlit as st
 
 # --------- PAGE CONFIG ---------
 st.set_page_config(
-    page_title="Vehicle Service Due Date Predictor",
+    page_title="Auto-Vehicle Service Due Date Predictor",
     page_icon="🚗",
     layout="wide",
 )
