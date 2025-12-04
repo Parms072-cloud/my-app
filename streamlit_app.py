@@ -5,6 +5,12 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+# --------- PAGE CONFIG ---------
+st.set_page_config(
+    page_title="Vehicle Service Due Date Predictor",
+    page_icon="🚗",
+    layout="wide",
+)
 
 # --------- LOAD MODEL & ARTIFACTS ---------
 @st.cache_resource
