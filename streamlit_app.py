@@ -69,7 +69,7 @@ st.subheader("Additional Details")
 numeric_features = [
     col
     for col in feature_columns
-    if col not in CATEGORICAL_COLS + DATE_DERIVED_COLS
+    if col not in CATEGORICAL_COLS + DATE_DERIVED_COLS + ['interval_in_months]
 ]
 
 numeric_inputs = {}
